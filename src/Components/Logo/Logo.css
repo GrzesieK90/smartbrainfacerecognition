@@ -1,0 +1,10 @@
+.Tilt {
+    background: radial-gradient(rgb(255, 174, 0), rgb(123, 66, 255));
+    border: 2px solid black;
+    box-shadow: 0 0 15px black;
+    border-radius: 25px;
+}
+
+img {
+    height: 100px;
+}
