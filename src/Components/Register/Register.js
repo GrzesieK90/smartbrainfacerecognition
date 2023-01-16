@@ -23,7 +23,7 @@ class Register extends Component {
     }
 
     onSubSignIn = () => {
-        fetch('https://smart-brain-api-db.herokuapp.com/register', {
+        fetch('http://localhost:3001/register', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({

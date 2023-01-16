@@ -1,0 +1,17 @@
+@media (max-width: 950px) {
+  .text {
+    font-size: 3vh;
+    color: white;
+    text-shadow: 1vw 1vw 1px black
+                 0px 0px 5px black;
+  }
+}
+
+@media (min-width: 950px) {
+  .text {
+    font-size: 4vh;
+    color: white;
+    text-shadow: 5px 5px 1px black,
+                 0px 0px 5px black;
+  }
+}

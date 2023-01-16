@@ -18,7 +18,7 @@ class SignIn extends Component {
     }
 
     onSubSignIn = () => {
-        fetch('https://smart-brain-api-db.herokuapp.com/signin', {
+        fetch('http://localhost:3001/signin', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
