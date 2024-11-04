@@ -23,7 +23,7 @@ class Register extends Component {
     }
 
     onSubSignIn = () => {
-        fetch('http://localhost:3001/register', {
+        fetch('https://smart-brain-api-cioh.onrender.com/register', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
