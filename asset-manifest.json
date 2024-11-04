@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/smartbrainfacerecognition/static/css/main.b11eb936.css",
-    "main.js": "/smartbrainfacerecognition/static/js/main.5d46a8ff.js",
+    "main.js": "/smartbrainfacerecognition/static/js/main.e73bccce.js",
     "static/js/787.1479d3ab.chunk.js": "/smartbrainfacerecognition/static/js/787.1479d3ab.chunk.js",
     "static/media/brain.png": "/smartbrainfacerecognition/static/media/brain.caf7dd5ff2cab7daeaf0.png",
     "index.html": "/smartbrainfacerecognition/index.html",
     "main.b11eb936.css.map": "/smartbrainfacerecognition/static/css/main.b11eb936.css.map",
-    "main.5d46a8ff.js.map": "/smartbrainfacerecognition/static/js/main.5d46a8ff.js.map",
+    "main.e73bccce.js.map": "/smartbrainfacerecognition/static/js/main.e73bccce.js.map",
     "787.1479d3ab.chunk.js.map": "/smartbrainfacerecognition/static/js/787.1479d3ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b11eb936.css",
-    "static/js/main.5d46a8ff.js"
+    "static/js/main.e73bccce.js"
   ]
 }
