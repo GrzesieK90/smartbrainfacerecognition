@@ -27,14 +27,14 @@ class Register extends Component {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
-                name: this.state.name,
                 email: this.state.email,
-                password: this.state.password
+                password: this.state.password,
+                name: this.state.name
             })
         })
         .then(response => response.json())
         .then(user => {
-            if(user.id) {
+            if (user._id) {
                 this.props.loadUser(user)
                 this.props.onRouteChange('home')
             }

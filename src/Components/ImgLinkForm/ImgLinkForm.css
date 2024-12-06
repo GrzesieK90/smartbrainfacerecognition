@@ -25,13 +25,19 @@
         text-shadow: 0px 0px 10px black;
         font-size: 3vh;
     }
+    .text {
+        font-size: 4vh;  
+        color: white;
+        text-shadow: 5px 5px 1px black,
+                     0px 0px 5px black;
+    }
 }
 @media (min-width: 920px) {
     .style1 {
         width: 50vw;
         background-color: #8f00ff;
         opacity: 0.8;
-        background-image: radial-gradient(circle at center center, #ffef00, #8f00ff), repeating-radial-gradient(circle at center center, #ffef00, #ffef00, 7px, transparent 14px, transparent 7px);
+        background-image: linear-gradient(to right, #845ec2, #b45cb6, #d65fa5, #ed6993, #fa7a82, #ff8977, #ff9a6e, #ffac69, #ffbe66, #ffd166, #ffe469, #f9f871);
         background-blend-mode: multiply;
         height: 14vh;
         display: inline-flex;
@@ -53,5 +59,11 @@
         text-shadow: 0px 0px 5px black;
         font-size: 3vh;
         font-weight: 800;
+    }
+    .text {
+        font-size: 4vh;  
+        color: white;
+        text-shadow: 5px 5px 1px black,
+                     0px 0px 5px black;
     }
 }

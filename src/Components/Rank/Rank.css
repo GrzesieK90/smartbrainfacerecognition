@@ -1,17 +1,71 @@
-@media (max-width: 950px) {
-  .text {
-    font-size: 3vh;
+.text {
     color: white;
-    text-shadow: 1vw 1vw 1px black,
-                 0px 0px 5px black;
-  }
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
 }
 
-@media (min-width: 950px) {
-  .text {
-    font-size: 4vh;
-    color: white;
-    text-shadow: 5px 5px 1px black,
-                 0px 0px 5px black;
-  }
+.text-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-label {
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.text-value {
+    font-size: 3rem;
+    font-weight: bold;
+    display: block;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+.stat-item {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1.5rem 2.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .stats-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .stat-item {
+        min-width: unset;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .text-title {
+        font-size: 1.75rem;
+    }
+
+    .text-label {
+        font-size: 1.25rem;
+    }
+
+    .text-value {
+        font-size: 2.5rem;
+    }
 }
